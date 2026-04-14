@@ -1,6 +1,9 @@
 body {
     background-color: wheat;
+    margin: 0;
+    padding: 0;
 }
+
 div.gameplace_class {
     margin: 20px;
     padding: 0;
@@ -10,15 +13,14 @@ div.gameplace_class {
     height: auto;
 }
 
-
 img {
-    border: none
+    border: none;
 }
 
 #gamebox {
     width: 430px;
     margin: auto;
-    text-align: center
+    text-align: center;
 }
 
 .gameboard {
@@ -27,7 +29,7 @@ img {
     width: 425px;
     height: 355px;
     vertical-align: middle;
-    text-align: center
+    text-align: center;
 }
 
 .lostballs {
@@ -37,15 +39,16 @@ img {
     height: 37px;
     display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
 }
 
 #headertext {
     font-weight: bold;
     color: #764127;
     text-align: center;
-    font-size: 30px
+    font-size: 30px;
 }
+
 input[type="button"] {
     background: #5a3a24;
     color: #f3e7d3;
@@ -58,6 +61,7 @@ input[type="button"] {
 input[type="button"]:hover {
     background: #6b442a;
 }
+
 select {
     background: #5a3a24;
     color: #f3e7d3;
@@ -66,7 +70,7 @@ select {
     padding: 6px 10px;
     cursor: pointer;
 }
-option:hover {
-    background-color: #5a3a24;
-    color: #f3e7d3;
+
+table {
+    border-collapse: collapse;
 }
