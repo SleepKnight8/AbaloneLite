@@ -1302,4 +1302,4 @@ function EvalNeighbour(color) { //  в разработке, баги
 
 Init();
 Init();
-setInterval("Timer()", 100);
+setInterval(Timer, 100);
