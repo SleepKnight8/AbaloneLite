@@ -6,8 +6,10 @@ div.gameplace_class {
     padding: 0;
     border: 0;
     position: relative;
-    height: 5000px
+    min-height: 100vh;
+    height: auto;
 }
+
 
 img {
     border: none
@@ -65,6 +67,6 @@ select {
     cursor: pointer;
 }
 option:hover {
-    background-color: #5a3a24;  /* wood brown */
-    color: #f3e7d3;             /* light warm text */
+    background-color: #5a3a24;
+    color: #f3e7d3;
 }
